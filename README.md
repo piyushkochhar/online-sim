@@ -15,17 +15,6 @@ Good luck and work hard!
 
 <b><a href="https://fonts.google.com/specimen/Nunito">Google Font - Nunito</a></b>
 
-# Application Design
-
-## Without Weather Data
-
-<img src="./assets/start.png" />
-
-## With Weather Data
-
-<img src="./assets/city.png" />
-
-
 # Technical Requirements - Front-end
 
 ## API
@@ -37,13 +26,14 @@ Good luck and work hard!
 ## Homepage
 * Recent Searches should be empty and the area where weather data by day is whould show 'Enter City'
 * User should be able to enter city, select state and then submit the form to get data
+<img src="./assets/start.png" />
 
 ## Homepage - Weather Data
 * 'Enter City' should be replaced with '5 Day Forecast'
 * The weather API will give you a 10 day forecast but you will have to modify the data you receive from the API to only display 5 days.
   * HINT: Modify the array of data using slice
 * Recent Searches should now show a recent city, with a maximum of 3 cities.
-
+<img src="./assets/city.png" />
 
 # Technical Requirements - Back-end
 * The back-end should be created using express. 
