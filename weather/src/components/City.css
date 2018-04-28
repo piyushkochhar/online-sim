@@ -1,0 +1,12 @@
+.city input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width:150px;
+    height:20px;
+    margin-bottom:10px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
